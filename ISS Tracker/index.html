@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ISS 3D Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="info">
+      <h2>ISS Live Tracker</h2>
+      <p>
+        <span class="label">Latitude:</span>
+        <span class="value" id="lat">Loading...</span>
+      </p>
+      <p>
+        <span class="label">Longitude:</span>
+        <span class="value" id="lon">Loading...</span>
+      </p>
+      <p>
+        <span class="label">Altitude:</span>
+        <span class="value" id="alt">~408 km</span>
+      </p>
+      <p>
+        <span class="label">Velocity:</span>
+        <span class="value">~27,600 km/h</span>
+      </p>
+      <p class="status" id="status"> Initializing...</p>
+    </div>
+
+    <div id="legend">
+      <strong>Legend:</strong><br />
+      <div class="legend-item">
+        <span class="legend-color" style="background: #2244aa"></span> Earth
+      </div>
+      <div class="legend-item">
+        <span class="legend-color" style="background: #ffff00"></span> ISS
+        (Current)
+      </div>
+      <div class="legend-item">
+        <span class="legend-color" style="background: #ff6666"></span> Past Path
+      </div>
+      <div class="legend-item">
+        <span class="legend-color" style="background: #ff0000"></span> Future
+        Path (2h)
+      </div>
+    </div>
+
+    <div id="controls">
+      <strong>Controls:</strong><br />
+      Drag to rotate view<br />
+      Scroll to zoom in/out<br />
+      Loading ISS model...
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/satellite.js@4.1.3/dist/satellite.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>

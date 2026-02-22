@@ -1,0 +1,85 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    background: #000; 
+    font-family: Arial, sans-serif;
+  }
+  
+  #info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #4a90e2;
+    min-width: 280px;
+    z-index: 100;
+  }
+  
+  #info h2 {
+    margin: 0 0 15px 0;
+    color: #4a90e2;
+    font-size: 20px;
+  }
+  
+  #info p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  .label {
+    color: #888;
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .value {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .status {
+    font-size: 12px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+  }
+  
+  #controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #4a90e2;
+    font-size: 12px;
+  }
+  
+  #legend {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #4a90e2;
+    font-size: 12px;
+  }
+  
+  .legend-item {
+    margin: 8px 0;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 3px;
+  }
