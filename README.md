@@ -1,20 +1,20 @@
 # The Work of Manu
 
-A collection of software projects I’ve built across web development, data science, and machine learning. Each folder contains its own codebase and README with setup instructions.
+A portfolio repository of projects I’ve built across software engineering. Each project lives in its own folder with setup instructions and documentation.
 
 ## Projects
 
-###  ISS Live Tracker (Three.js, Satellite.js)
-Real-time 3D visualization of the International Space Station with orbit prediction using TLE data.
-- **Code:** `ISS Tracker/`
-- **Tech:** JavaScript, Three.js, Satellite.js, wheretheiss.at API, CelesTrak TLE
-- **Demo:** (Add link if deployed)
+### ISS 3D Tracker (Three.js, Satellite.js)
+Real-time 3D visualization of the International Space Station (ISS), including a past trajectory trail and a 2-hour orbit prediction using TLE + SGP4.
+- **Folder:** `ISS Tracker/`
+- **Stack:** JavaScript (ES6), Three.js, Satellite.js, wheretheiss.at API, CelesTrak TLE
 
 ---
 
-## How to Use This Repo
-Each project is self-contained. Open a project folder and follow its `README.md` for installation and usage.
+## Repository Structure
+- Each folder is a standalone project.
+- Open a project folder and follow its `README.md` to run it locally.
 
 ## Contact
+- GitHub: https://github.com/macrezz  
 - LinkedIn: www.linkedin.com/in/manuaditya-manivannan-sundarasolai
-- GitHub: https://github.com/macrezz
